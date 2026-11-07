@@ -36,7 +36,7 @@ Nhằm giải quyết triệt để các vấn đề trên, đề tài **"Smart 
 
 ## 2. MỤC TIÊU ĐỀ TÀI
 
-- **Xây dựng mô hình thực nghiệm (Hardware Prototype):** Mô hình phòng học quy mô nhỏ gồm **3 vị trí ghế sinh viên** và **1 bàn giáo viên**, có cơ chế đóng/mở chốt cơ học và cảm biến lực/hành trình tại mỗi ghế.
+- **Xây dựng mô hình thực nghiệm:** Mô hình phòng học quy mô nhỏ gồm **3 vị trí ghế sinh viên** và **1 bàn giáo viên**, có cơ chế đóng/mở chốt cơ học và cảm biến lực/hành trình tại mỗi ghế.
 - **Tự động hóa điểm danh và xác thực cá nhân:** Ứng dụng công nghệ RFID RC522 để xác định danh tính sinh viên và phân quyền giáo viên điều khiển buổi học.
 - **Chống điểm danh hộ & xác thực hiện diện thực tế:** Kết hợp đọc thẻ với công tắc hành trình kiểm tra sinh viên có thực sự ngồi vào ghế hay không trước khi ghi nhận điểm danh.
 - **Giao tiếp IoT thời gian thực:** Tận dụng vi điều khiển ESP32 và giao thức MQTT để truyền nhận dữ liệu trạng thái nhanh chóng, độ trễ thấp và bảo mật.
