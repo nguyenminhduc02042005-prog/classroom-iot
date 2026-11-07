@@ -24,7 +24,7 @@
 
 ## 1. GIỚI THIỆU TỔNG QUAN & ĐẶT VẤN ĐỀ
 
-Trong kỷ nguyên chuyển đổi số và phát triển trường học thông minh (Smart University / Smart Campus), công tác quản lý phòng học, kiểm soát hiện diện của sinh viên và tổ chức các kỳ thi đóng vai trò đặc biệt quan trọng. Tuy nhiên, các phương pháp quản lý truyền thống hiện nay đang bộc lộ nhiều hạn chế:
+Trong kỷ nguyên chuyển đổi số và phát triển trường học thông minh, công tác quản lý phòng học, kiểm soát hiện diện của sinh viên và tổ chức các kỳ thi đóng vai trò đặc biệt quan trọng. Tuy nhiên, các phương pháp quản lý truyền thống hiện nay đang bộc lộ nhiều hạn chế:
 - **Điểm danh thủ công tốn thời gian:** Điểm danh bằng cách đọc tên hoặc ký tên vào danh sách giấy gây lãng phí từ 10 - 15 phút đầu mỗi buổi học và dễ xảy ra tình trạng ký tên hộ, điểm danh hộ.
 - **Gian lận vị trí chỗ ngồi:** Điểm danh qua ứng dụng di động/quét mã QR dễ bị gửi mã ra ngoài cho người không có mặt trong lớp quét từ xa.
 - **Khó quản lý ghế ngồi và tài nguyên phòng học:** Giảng viên và ban quản lý khó nắm bắt thời gian thực vị trí ghế nào đang trống, ghế nào có người ngồi.
@@ -37,11 +37,11 @@ Nhằm giải quyết triệt để các vấn đề trên, đề tài **"Smart 
 ## 2. MỤC TIÊU ĐỀ TÀI
 
 - **Xây dựng mô hình thực nghiệm (Hardware Prototype):** Mô hình phòng học quy mô nhỏ gồm **3 vị trí ghế sinh viên** và **1 bàn giáo viên**, có cơ chế đóng/mở chốt cơ học và cảm biến lực/hành trình tại mỗi ghế.
-- **Tự động hóa điểm danh và xác thực cá nhân:** Ứng dụng công nghệ RFID RC522 (13.56MHz) để xác định danh tính sinh viên và phân quyền giáo viên điều khiển buổi học.
+- **Tự động hóa điểm danh và xác thực cá nhân:** Ứng dụng công nghệ RFID RC522 để xác định danh tính sinh viên và phân quyền giáo viên điều khiển buổi học.
 - **Chống điểm danh hộ & xác thực hiện diện thực tế:** Kết hợp đọc thẻ với công tắc hành trình kiểm tra sinh viên có thực sự ngồi vào ghế hay không trước khi ghi nhận điểm danh.
-- **Giao tiếp IoT thời gian thực (Real-time IoT Communication):** Tận dụng vi điều khiển ESP32 và giao thức MQTT để truyền nhận dữ liệu trạng thái nhanh chóng, độ trễ thấp và bảo mật.
+- **Giao tiếp IoT thời gian thực:** Tận dụng vi điều khiển ESP32 và giao thức MQTT để truyền nhận dữ liệu trạng thái nhanh chóng, độ trễ thấp và bảo mật.
 - **Quản lý tập trung & Giám sát trực quan:** Xây dựng Dashboard trên nền tảng Node-RED hiển thị sơ đồ phòng học, trạng thái ghế, thống kê sĩ số và lịch sử ra vào.
-- **Hệ thống nhắc thi tự động (Automated Exam Reminder):** Tích hợp dịch vụ gửi Email thông minh, tự động kiểm tra danh sách có mặt trước giờ thi 15 phút; nếu sinh viên chưa điểm danh tại phòng thi thì lập tức gửi email cảnh báo khẩn cấp.
+- **Hệ thống nhắc thi tự động:** Tích hợp dịch vụ gửi Email thông minh, tự động kiểm tra danh sách có mặt trước giờ thi 15 phút; nếu sinh viên chưa điểm danh tại phòng thi thì lập tức gửi email cảnh báo khẩn cấp.
 
 ---
 
@@ -200,7 +200,6 @@ Vui lòng kiểm tra lại thông tin và nhanh chóng có mặt tại phòng th
 
 Chúc bạn hoàn thành tốt bài thi!
 -----------------------------------------------------------
-Smart Classroom Management System - Automated Notification
 ```
 
 ---
